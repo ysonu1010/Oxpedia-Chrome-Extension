@@ -76,7 +76,7 @@ function makeRequest(word) {
 
                       }
                       else{
-                        alert("Word Not found!");
+                        alert("Word  Not  found!");
                       }
                     }
                   }
