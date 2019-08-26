@@ -12,6 +12,7 @@ Setting up the extension:
         4. Enable the extension and you are all set to go!
 
 What goes behind the black box?
-    The extension uses two Oxford Dictionary APIs, Lemmatron and Dictionary Entries. It identifies the verb forms and gives meaning of the     root. It identifies if the word is being selected, passes the information to a background script which looks for the meaning in             database. If found, it is then added on to the search list by communicating to the extension window.
+> * The extension uses two Oxford Dictionary APIs, Lemmatron and Dictionary Entries. What the Application does?
+> * When you select a word whose meaning you want to find out on the loaded page the word encoded as an url link is sent to api via > * XMLHttpRequest along with the headers containing api_id and api_key. The received response is stored as a JSON object and from  > * this object synonym of that word is extracted and prompted and stored in user history.
 
 For any bug identified or improvements, mail at y.sonu1010@gmail.com
