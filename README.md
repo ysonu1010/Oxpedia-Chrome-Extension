@@ -13,6 +13,9 @@ History will be maintained in the extension, popup.html for reference.
 ```
 ## What goes behind the black box?
 ```The extension uses two Oxford Dictionary APIs, Lemmatron and Dictionary Entries. What the Application does?
-When you select a word whose meaning you want to find out on the loaded page the word encoded as an url link is sent to api via XMLHttpRequest along with the headers containing api_id and api_key. The received response is stored as a JSON object and from  this object synonym of that word is extracted and prompted and stored in user history.
+When you select a word whose meaning you want to find out on the loaded page
+the word encoded as an url link is sent to api via XMLHttpRequest along with
+the headers containing api_id and api_key. The received response is stored as
+a JSON object and from  this object synonym of that word is extracted and prompted and stored in user history.
 ```
 ### For any bug identified or improvements, mail at y.sonu1010@gmail.com
